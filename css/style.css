@@ -1,0 +1,49 @@
+#rw-tabs {
+box-sizing: content-box;
+max-height: 295px;
+overflow: hidden;
+}
+#rw-tabs {
+    box-sizing: content-box;
+}
+.ui-tabs .ui-tabs-panel {
+    box-sizing: content-box;
+    max-height: 310px;
+    overflow: auto;
+    width: 420px;
+}
+#review-type > p {
+    margin: 0;
+}
+#review-type input, #review-type textarea {
+    margin: 0 0 5px;
+    width: auto;
+}
+#review-type {
+    font-size: 100%;
+    max-width: 95%;
+    overflow: auto;
+    vertical-align: top;
+}
+/* slider styles */
+.slider-div ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.slider-div {
+    overflow: hidden;
+    position: relative;
+	max-height: 200px;
+	width: 420px;
+}
+.slider-div li {
+    float: left;
+    list-style: outside none none;
+	margin: 0;
+}
+.slider-controls {
+    text-align: right;
+}.slider-div ul li {    margin-left: 0;}.slider-wrapper h3.slider-title {    margin: 0;}
