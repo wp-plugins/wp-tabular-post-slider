@@ -28,7 +28,7 @@ see the demo http://me.hopeadjustor.com/reviews/ here.
 == Installation ==
 1. Download and Upload \"wp-tabular-post-slider\" into the \"plugins\" directory.
 2. Activate the plugin through the \'Plugins\' menu in WordPress.
-3. After activation use the [TPSBC] or <?php echo do_shortcode('[TPSBC]'); ?>.
+3. After activation use the [TPSBC].
 4. Go TPSBC Settings to control the slider and other things.
 5. Enjoy!!!
 
