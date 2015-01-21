@@ -1,5 +1,5 @@
 === WP Tabular Post Slider ===
-Contributors: Mritunjay Datt Tiwari, Hopeadjustor
+Contributors: Mritunjay Datt Tiwari, hopeadjustor.com
 Tags: Post by category, post slider, tabular posts, category slider, TPSBC
 Donate link: http://hopeadjustor.com
 Requires at least: 3.0
@@ -28,7 +28,7 @@ see the demo http://me.hopeadjustor.com/reviews/ here.
 == Installation ==
 1. Download and Upload \"wp-tabular-post-slider\" into the \"plugins\" directory.
 2. Activate the plugin through the \'Plugins\' menu in WordPress.
-3. After activation use the [TPSBC] or .
+3. After activation use the [TPSBC] or <?php echo do_shortcode('[TPSBC]'); ?>.
 4. Go TPSBC Settings to control the slider and other things.
 5. Enjoy!!!
 
