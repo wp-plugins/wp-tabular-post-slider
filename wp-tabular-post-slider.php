@@ -17,18 +17,16 @@ License: GPL2
 			add_menu_page( 'TPSBC Settings', 'TPSBC Settings', 'manage_options', 'tpsbc-plugin', 'tpsbc_init' );
 			//call register settings function
 			add_action( 'admin_init', 'register_tpsbc_settings' );
-	}	function tpsbc_scripts_method() {		
-		wp_enqueue_media();
-		wp_enqueue_script( 'jquery-ui-core', array('jquery'));
+	}	function tpsbc_scripts_method() {		
+		wp_enqueue_media();
+		wp_enqueue_script( 'jquery-ui-core', array('jquery'));
 		wp_enqueue_script( 'jquery-ui-tabs', array('jquery', 'jquery-ui-core'));
-
-		wp_dequeue_script( 'tpsbc-slider1' );
-		wp_enqueue_script('tpsbc-slider1', plugins_url( '/inc/jquery.jcarousel.min.js' , __FILE__ ),array('jquery'),'0.1',true);
+		wp_dequeue_script( 'tpsbc-slider1' );
+		wp_enqueue_script('tpsbc-slider1', plugins_url( '/inc/jquery.jcarousel.min.js' , __FILE__ ),array('jquery'),'0.1',false);
 		wp_enqueue_script('tpsbc-slider1');
-		
-		wp_dequeue_script( 'tpsbc-settings' );
-		wp_register_script( 'tpsbc-settings', plugins_url( '/inc/settings.js' , __FILE__ ),array('jquery' ),'0.1',true);
-		wp_enqueue_script( 'tpsbc-settings' );
+		wp_dequeue_script( 'tpsbc-settings' );
+		wp_register_script( 'tpsbc-settings', plugins_url( '/inc/settings.js' , __FILE__ ),array('jquery' ),'0.1',false);
+		wp_enqueue_script( 'tpsbc-settings' );
 	}
 
 	add_action( 'wp_enqueue_scripts', 'tpsbc_scripts_method' );
