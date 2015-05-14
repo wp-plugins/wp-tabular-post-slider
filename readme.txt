@@ -3,7 +3,7 @@ Contributors: Mritunjay Datt Tiwari, hopeadjustor.com
 Tags: Post by category, post slider, tabular posts, category slider, TPSBC
 Donate link: http://hopeadjustor.com
 Requires at least: 3.0
-Tested up to: 4.1
+Tested up to: 4.2
 License: GPLv2 or Later
 
 The wp-tabular-post-slider allows you to show your posts by category which is organized in tabular form. 
